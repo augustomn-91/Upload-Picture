@@ -1,6 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 1px solid blue;
+}
+
+.area {
+    border: 1px dashed black;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area .icon {
+    margin-bottom: 20px;
+}
+
+.area header {
+    margin-bottom: 13px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.area span {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.area button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0088ff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.area button:hover {
+    opacity: 1;
 }
